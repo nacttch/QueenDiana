@@ -1,6 +1,6 @@
 <div align="center">
   
-![QueenDiana Banner](https://img.shields.io/badge/QueenDiana-Pro_Max-ff69b4.svg)
+![QueenDiana Banner](https://img.shields.io/badge/QueenDiana-V1.0.0-ff69b4.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
