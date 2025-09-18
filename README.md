@@ -57,7 +57,7 @@ Choice:
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/<your-user>/QueenDiana.git
+git clone https://github.com/nacttch/QueenDiana.git
 cd QueenDiana
 ```
 
@@ -98,19 +98,7 @@ Adjust according to your `engine.py` needs.
 Run the interactive CLI:
 
 ```bash
-python3 queen_diana.py
-```
-
-Steps:
-
-1. Enter the target domain or URL (e.g. `example.com` or `https://example.com`).
-2. Choose a module from the menu, or select `9` to run a full passive audit.
-3. Reports will be saved to the `report/` directory as `queen_diana_YYYYMMDD_HHMMSS.json`.
-
-Example non-interactive invocation (if you add CLI flags):
-
-```bash
-python3 queen_diana.py --target https://example.com --mode http
+python3 main.py
 ```
 
 ---
@@ -142,7 +130,6 @@ Reports are written to `report/` and include a timestamp.
 * `config.py` — central settings (timeouts, retries, user-agent, output directory).
 * `wordlists/` — add custom wordlists for `sensitive` scans.
 * `engine.py` — implement or tweak module behavior and detection heuristics.
-* `report/` — change output location or post-process reports into HTML.
 
 Tip: keep reasonable `delay` and `retries` settings in `opts` to avoid overloading targets.
 
