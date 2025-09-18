@@ -1,0 +1,15 @@
+.env
+config.php
+wp-config.php
+.git/
+backup.zip
+backup.tar.gz
+db.sql
+admin.php
+debug.log
+.htaccess
+install.php
+old.zip
+dev.php
+.svn/
+.DS_Store

@@ -1,0 +1,9 @@
+www
+admin
+mail
+webmail
+test
+dev
+staging
+beta
+portal
